@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-Board board;
-void setup() {
-  surface.setSize(450, 300);
-  board = new Board();
-  background(0);
-}
-
-void draw() {
-  board.updateSelectArea();
-  board.updateCommentArea("Choose Your Hand");
-=======
 class Board {
 
   void updateSelectArea() {
@@ -36,5 +24,4 @@ class Board {
     textAlign(CENTER);
     text(result, 225, 260);
   }
->>>>>>> refs/remotes/origin/master
 }
